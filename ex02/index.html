@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>interagindo com botão</title>
+    <style>
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: rgb(69, 69, 66);
+            padding: 5%;
+            width: 15%;
+            border-radius: 15%;
+            color: white
+        }
+        button {
+            font-size: 12pt; 
+            padding: 15px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Clique no botão abaixo:</h1>
+        <button onclick="cliquei()">Clique aqui!</button>
+    </div>
+    <script>
+        function cliquei() {
+            window.alert('Você clicou!');
+        };
+    </script>
+</body>
+</html>
